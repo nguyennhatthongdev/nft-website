@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply flex justify-center items-center bg-primary hover:bg-[#0035EE] disabled:bg-dark2
+            rounded-[6px] w-full max-w-[180px] h-[60px] transition;
+    }
+
+    .heading-1 {
+        @apply text-[80px] font-bold leading-[90px] font-space;
+    }
+
+    .heading-2 {
+        @apply text-[44px] font-bold leading-[54px] font-space;
+    }
+
+    .heading-3 {
+        @apply text-[22px] font-bold leading-[32px] font-space;
+    }
+
+    .heading-4 {
+        @apply text-[20px] font-bold leading-[30px] font-space;
+    }
+
+    .paragraph-1 {
+        @apply text-[18px] font-normal leading-[30px] font-space;
+    }
+
+    .paragraph-2 {
+        @apply text-[16px] font-normal leading-[28px] font-space;
+    }
+
+    .paragraph-3 {
+        @apply text-[14px] font-normal leading-[24px] font-space;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@layer utilities {
+    .scroll-snap-mandatory {
+        scroll-snap-type: x mandatory;
+    }
+
+    .scroll-snap-always {
+        scroll-snap-stop: always;
+    }
+
+    .scroll-snap-start {
+        scroll-snap-align: start;
+    }
+
+    .animate-marquee {
+        animation: marquee 60s linear infinite;
+    }
+}
