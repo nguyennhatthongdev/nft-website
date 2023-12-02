@@ -2045,6 +2045,10 @@ video {
   background-image: url('/img/BG.png');
 }
 
+.bg-\[url\(\'\.\/img\/BG\.png\'\)\] {
+  background-image: url('./img/BG.png');
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
