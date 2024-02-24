@@ -8,7 +8,8 @@
     <title>TailwindCSS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="./build/tailwind.css">
     <link rel="stylesheet" href="./build/app.css">
 
@@ -16,7 +17,8 @@
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </head>
 <body class="bg-cover text-white font-space" style="background-image: url('./img/BG.png')">
-<div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
+
+<div class="max-w-[1170px] mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
     <div class="flex justify-between items-center mt-[18px] mb-[50px]">
         <div class="flex">
             <img src="./img/logo.png" class="w-[34px] h-[34px] mr-[6px]" alt="">
@@ -29,45 +31,50 @@
         </div>
     </div>
 
-    <div class="mb-[50px]">
-        <div class="text-[36px] font-bold leading-[46px]">Buy, Sell, And</div>
-        <div class="text-[36px] font-bold leading-[46px]">
-            <img src="./img/rectangle_5179.png" class="inline-block" alt="">
-            <span>Showcase</span>
+    <div class="grid grid-cols-1 lg:grid-cols-2 mb-[50px]">
+        <div>
+            <div class="text-[36px] font-bold leading-[46px]">Buy, Sell, And</div>
+            <div class="text-[36px] font-bold leading-[46px]">
+                <img src="./img/rectangle_5179.png" class="inline-block" alt="">
+                <span>Showcase</span>
+            </div>
+            <div class="text-[36px] font-bold leading-[46px] mb-[12px]">
+                <span>Super NFTs</span>
+                <img src="./img/rectangle_5180.png" class="inline-block" alt="">
+            </div>
         </div>
-        <div class="text-[36px] font-bold leading-[46px] mb-[12px]">
-            <span>Super NFTs</span>
-            <img src="./img/rectangle_5180.png" class="inline-block" alt="">
-        </div>
-        <h3 class="text-grey mb-[30px]">
-            Discover, collect, and sell extraordinary NFTs through our awesome platform. Express yourself by your artwork
-            though us.
-        </h3>
+        <div>
+            <h3 class="text-grey mb-[30px]">
+                Discover, collect, and sell extraordinary NFTs through our awesome platform. Express yourself by your
+                artwork
+                though us.
+            </h3>
 
-        <button class="btn-primary">Explore NFTs</button>
+            <button class="btn-primary">Explore NFTs</button>
+        </div>
     </div>
 
     <div class="mb-[38.63px]">
-        <div class="grid auto-cols-[calc(100%/3)] grid-flow-col overflow-x-auto snap-mandatory scroll-snap-always gap-x-[8.65px]">
-            <div class="h-[124px] scroll-snap-start">
+        <div class="grid auto-cols-[calc(100%/3)] grid-flow-col overflow-x-auto snap-mandatory scroll-snap-always gap-x-[8.65px] lg:gap-[30px]">
+            <div class="h-[124px] lg:h-[430px] scroll-snap-start">
                 <img src="./img/rectangle_5177.png" alt="" class="w-full h-full object-cover">
             </div>
-            <div class="h-[124px] scroll-snap-start">
+            <div class="h-[124px] lg:h-[430px] scroll-snap-start">
                 <img src="./img/rectangle_5178.png" alt="" class="w-full h-full object-cover">
             </div>
-            <div class="h-[124px] scroll-snap-start">
+            <div class="h-[124px] lg:h-[430px] scroll-snap-start">
                 <img src="./img/rectangle_5173.png" alt="" class="w-full h-full object-cover">
             </div>
-            <div class="h-[124px] scroll-snap-start">
+            <div class="h-[124px] lg:h-[430px] scroll-snap-start">
                 <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover">
             </div>
-            <div class="h-[124px] scroll-snap-start">
+            <div class="h-[124px] lg:h-[430px] scroll-snap-start">
                 <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover">
             </div>
-            <div class="h-[124px] scroll-snap-start">
+            <div class="h-[124px] lg:h-[430px] scroll-snap-start">
                 <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover">
             </div>
-            <div class="h-[124px] scroll-snap-start">
+            <div class="h-[124px] lg:h-[430px] scroll-snap-start">
                 <img src="https://source.unsplash.com/random" alt="" class="w-full h-full object-cover">
             </div>
         </div>
@@ -90,43 +97,47 @@
     </div>
 </div>
 
-<div class="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
-    <div class="mb-[70px]">
-        <div class="mb-[30px]">
-            <img src="./img/rectangle_8.png" class="w-full" alt="">
-        </div>
-
-        <h4 class="text-white text-[26px] font-medium mb-[10px]">JUNK FOOD PARTY #137</h4>
-
-        <p class="text-[18px] text-grey mb-[18px] font-thin">
-            Created by <a href="#" class="text-[16px] text-primary font-semibold">MitsuoKatori</a>
-        </p>
-
-        <div class="mb-[30px]">
-            <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
-                <span>0</span>
-                <span class="text-grey uppercase">days</span>
-            </div>
-            <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
-                <span>4</span>
-                <span class="text-grey uppercase">hrs</span>
-            </div>
-            <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
-                <span>17</span>
-                <span class="text-grey uppercase">mins</span>
-            </div>
-            <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
-                <span>59</span>
-                <span class="text-grey uppercase">secs</span>
+<div class="max-w-[1170px] mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
+    <div class="grid grid-cols-1 lg:grid-cols-2 mb-[70px]">
+        <div>
+            <div class="mb-[30px]">
+                <img src="./img/rectangle_8.png" class="w-full" alt="">
             </div>
         </div>
 
-        <div class="text-grey mb-[4px]">Current Bid</div>
-        <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+        <div>
+            <h4 class="text-white text-[26px] font-medium mb-[10px]">JUNK FOOD PARTY #137</h4>
 
-        <button class="btn-primary mb-[12px]">Place a Bid</button>
+            <p class="text-[18px] text-grey mb-[18px] font-thin">
+                Created by <a href="#" class="text-[16px] text-primary font-semibold">MitsuoKatori</a>
+            </p>
 
-        <button class="btn-primary bg-dark2">View Artwork</button>
+            <div class="mb-[30px]">
+                <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
+                    <span>0</span>
+                    <span class="text-grey uppercase">days</span>
+                </div>
+                <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
+                    <span>4</span>
+                    <span class="text-grey uppercase">hrs</span>
+                </div>
+                <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
+                    <span>17</span>
+                    <span class="text-grey uppercase">mins</span>
+                </div>
+                <div class="w-[70px] h-[70px] inline-flex flex-col bg-dark2 items-center justify-center rounded-[4px] mr-3">
+                    <span>59</span>
+                    <span class="text-grey uppercase">secs</span>
+                </div>
+            </div>
+
+            <div class="text-grey mb-[4px]">Current Bid</div>
+            <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+
+            <button class="btn-primary mb-[12px]">Place a Bid</button>
+
+            <button class="btn-primary bg-dark2">View Artwork</button>
+        </div>
     </div>
 
     <div>
@@ -138,164 +149,166 @@
             Discover, collect, and sell extraordinary <br> NFTs through our awesome platform.
         </p>
 
-        <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
-            <div class="mb-3 relative">
-                <img src="./img/rectangle_2.png" class="w-full" alt="">
-                
-                <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
-                    <img src="./img/heart.png" alt="">
+        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-[30px]">
+            <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
+                <div class="mb-3 relative">
+                    <img src="./img/rectangle_2.png" class="w-full" alt="">
+
+                    <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
+                        <img src="./img/heart.png" alt="">
+                    </div>
+                </div>
+
+                <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
+
+                <p class="text-[18px] text-grey mb-[18px] font-thin">
+                    Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
+                </p>
+
+                <div class="flex justify-between">
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    </div>
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
+                    </div>
                 </div>
             </div>
 
-            <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
+            <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
+                <div class="mb-3 relative">
+                    <img src="./img/rectangle_2_5.png" class="w-full" alt="">
 
-            <p class="text-[18px] text-grey mb-[18px] font-thin">
-                Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
-            </p>
+                    <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
+                        <img src="./img/heart.png" alt="">
+                    </div>
+                </div>
 
-           <div class="flex justify-between">
-               <div>
-                   <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
-                   <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
-               </div>
-               <div>
-                   <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
-                   <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
-               </div>
-           </div>
-        </div>
+                <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
 
-        <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
-            <div class="mb-3 relative">
-                <img src="./img/rectangle_2_5.png" class="w-full" alt="">
+                <p class="text-[18px] text-grey mb-[18px] font-thin">
+                    Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
+                </p>
 
-                <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
-                    <img src="./img/heart.png" alt="">
+                <div class="flex justify-between">
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    </div>
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
+                    </div>
                 </div>
             </div>
 
-            <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
+            <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
+                <div class="mb-3 relative">
+                    <img src="./img/rectangle_2_1.png" class="w-full" alt="">
 
-            <p class="text-[18px] text-grey mb-[18px] font-thin">
-                Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
-            </p>
-
-            <div class="flex justify-between">
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
+                        <img src="./img/heart.png" alt="">
+                    </div>
                 </div>
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
-                </div>
-            </div>
-        </div>
 
-        <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
-            <div class="mb-3 relative">
-                <img src="./img/rectangle_2_1.png" class="w-full" alt="">
+                <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
 
-                <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
-                    <img src="./img/heart.png" alt="">
-                </div>
-            </div>
+                <p class="text-[18px] text-grey mb-[18px] font-thin">
+                    Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
+                </p>
 
-            <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
-
-            <p class="text-[18px] text-grey mb-[18px] font-thin">
-                Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
-            </p>
-
-            <div class="flex justify-between">
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
-                </div>
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
-            <div class="mb-3 relative">
-                <img src="./img/rectangle_2_2.png" class="w-full" alt="">
-
-                <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
-                    <img src="./img/heart.png" alt="">
+                <div class="flex justify-between">
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    </div>
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
+                    </div>
                 </div>
             </div>
 
-            <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
+            <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
+                <div class="mb-3 relative">
+                    <img src="./img/rectangle_2_2.png" class="w-full" alt="">
 
-            <p class="text-[18px] text-grey mb-[18px] font-thin">
-                Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
-            </p>
-
-            <div class="flex justify-between">
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
+                        <img src="./img/heart.png" alt="">
+                    </div>
                 </div>
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
-                </div>
-            </div>
-        </div>
 
-        <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
-            <div class="mb-3 relative">
-                <img src="./img/rectangle_2_3.png" class="w-full" alt="">
+                <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
 
-                <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
-                    <img src="./img/heart.png" alt="">
-                </div>
-            </div>
+                <p class="text-[18px] text-grey mb-[18px] font-thin">
+                    Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
+                </p>
 
-            <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
-
-            <p class="text-[18px] text-grey mb-[18px] font-thin">
-                Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
-            </p>
-
-            <div class="flex justify-between">
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
-                </div>
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
-            <div class="mb-3 relative">
-                <img src="./img/rectangle_2_4.png" class="w-full" alt="">
-
-                <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
-                    <img src="./img/heart.png" alt="">
+                <div class="flex justify-between">
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    </div>
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
+                    </div>
                 </div>
             </div>
 
-            <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
+            <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
+                <div class="mb-3 relative">
+                    <img src="./img/rectangle_2_3.png" class="w-full" alt="">
 
-            <p class="text-[18px] text-grey mb-[18px] font-thin">
-                Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
-            </p>
-
-            <div class="flex justify-between">
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
+                        <img src="./img/heart.png" alt="">
+                    </div>
                 </div>
-                <div>
-                    <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
-                    <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
+
+                <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
+
+                <p class="text-[18px] text-grey mb-[18px] font-thin">
+                    Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
+                </p>
+
+                <div class="flex justify-between">
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    </div>
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-dark2 p-3 mb-[18px] rounded-[12px]">
+                <div class="mb-3 relative">
+                    <img src="./img/rectangle_2_4.png" class="w-full" alt="">
+
+                    <div class="absolute right-3 top-3 p-3 bg-white rounded-[50%]">
+                        <img src="./img/heart.png" alt="">
+                    </div>
+                </div>
+
+                <h4 class="text-white heading-3 mb-[10px]">LuppyclubOfficial</h4>
+
+                <p class="text-[18px] text-grey mb-[18px] font-thin">
+                    Created by <a href="#" class="text-[16px] text-primary font-semibold">LuppyclubOfficial</a>
+                </p>
+
+                <div class="flex justify-between">
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Current Bid</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">1.0324 ETH</div>
+                    </div>
+                    <div>
+                        <div class="text-grey paragraph-3 mb-[4px]">Remaining Time</div>
+                        <div class="text-[20px] font-bold mb-[30px] font-be">12 : 03 : 44</div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -304,48 +317,70 @@
     </div>
 
     <div class="mb-[30px]">
-        <h4 class="text-[26px] font-bold text-space mb-[30px]">Browse by Category</h4>
+        <div class="flex justify-between items-center">
+            <h4 class="text-[26px] font-bold text-space mb-[30px]">Browse by Category</h4>
 
-        <div class="mb-[70px]">
-            <div class="bg-dark2 p-3 mb-[18px]">
-                <div class="mb-3">
-                    <img src="./img/rectangle_138_1.png" alt="">
-                </div>
-                <button class="btn-primary max-w-full bg-dark3">Art</button>
+            <div class="flex items-center">
+                <button role="button" class="prev rounded-[4px] mr-[20px] p-[14px] bg-dark leading-[0px]"
+                        aria-label="prev">
+                    <ion-icon name="arrow-back-outline"></ion-icon>
+                </button>
+                <button role="button" class="next rounded-[4px] p-[14px] bg-primary leading-[0px]"
+                        aria-label="next">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </button>
             </div>
+        </div>
 
-            <div class="bg-dark2 p-3 mb-[18px]">
-                <div class="mb-3">
-                    <img src="./img/rectangle_138_2.png" alt="">
+        <div class="relative mb-[70px]">
+            <div class="flex overflow-x-auto snap-mandatory scroll-snap-always gap-x-[30px]">
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 mb-[18px] rounded-[10px]">
+                        <div class="w-[230px] mb-3">
+                            <img src="./img/rectangle_138_1.png" class="w-full h-full" alt="">
+                        </div>
+                        <button class="btn-primary max-w-full bg-dark3">Art</button>
+                    </div>
                 </div>
-                <button class="btn-primary max-w-full bg-dark3">Art</button>
-            </div>
-
-            <div class="bg-dark2 p-3 mb-[18px]">
-                <div class="mb-3">
-                    <img src="./img/rectangle_138_3.png" alt="">
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 mb-[18px] rounded-[10px]">
+                        <div class="w-[230px] mb-3">
+                            <img src="./img/rectangle_138_2.png" class="w-full h-full" alt="">
+                        </div>
+                        <button class="btn-primary max-w-full bg-dark3">Art</button>
+                    </div>
                 </div>
-                <button class="btn-primary max-w-full bg-dark3">Art</button>
-            </div>
-
-            <div class="bg-dark2 p-3 mb-[18px]">
-                <div class="mb-3">
-                    <img src="./img/rectangle_138_4.png" alt="">
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 mb-[18px] rounded-[10px]">
+                        <div class="w-[230px] mb-3">
+                            <img src="./img/rectangle_138_3.png" class="w-full h-full" alt="">
+                        </div>
+                        <button class="btn-primary max-w-full bg-dark3">Art</button>
+                    </div>
                 </div>
-                <button class="btn-primary max-w-full bg-dark3">Art</button>
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 mb-[18px] rounded-[10px]">
+                        <div class="w-[230px] mb-3">
+                            <img src="./img/rectangle_138_4.png" class="w-full h-full" alt="">
+                        </div>
+                        <button class="btn-primary max-w-full bg-dark3">Art</button>
+                    </div>
+                </div>
             </div>
         </div>
 
         <h4 class="text-[26px] font-bold text-space mb-[30px] text-center">Top Collections</h4>
 
-        <button class="btn-primary mx-auto mb-[12px]">Today</button>
-        <button class="btn-primary mx-auto mb-[12px] bg-dark2">Last 7 Days</button>
-        <button class="btn-primary mx-auto mb-[12px] bg-dark2">Last 30 Days</button>
+        <div class="lg:flex lg:justify-center">
+            <button class="btn-primary mx-auto lg:mx-0 mb-[12px] lg:mr-[20px]">Today</button>
+            <button class="btn-primary mx-auto lg:mx-0 mb-[12px] bg-dark2 lg:mr-[20px]">Last 7 Days</button>
+            <button class="btn-primary mx-auto lg:mx-0 mb-[12px] bg-dark2 lg:mr-[20px]">Last 30 Days</button>
+        </div>
     </div>
 
     <div class="mb-[70px]">
-        <div class="mb-[30px]">
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-[30px] mb-[30px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750.png" alt="">
@@ -359,7 +394,7 @@
                 <div class="text-[#56BD83]">+70.05%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_1.png" alt="">
@@ -373,7 +408,7 @@
                 <div class="text-[#56BD83]">+75.41%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_2.png" alt="">
@@ -387,7 +422,7 @@
                 <div class="text-[#E94949]">-40.01%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_3.png" alt="">
@@ -401,7 +436,7 @@
                 <div class="text-[#E94949]">-40.01%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_11.png" alt="">
@@ -415,7 +450,7 @@
                 <div class="text-[#56BD83]">+75.41%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_4.png" alt="">
@@ -429,7 +464,7 @@
                 <div class="text-[#56BD83]">+75.41%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_5.png" alt="">
@@ -443,7 +478,7 @@
                 <div class="text-[#56BD83]">+75.41%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_6.png" alt="">
@@ -457,7 +492,7 @@
                 <div class="text-[#E94949]">-40.01%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_7.png" alt="">
@@ -471,7 +506,7 @@
                 <div class="text-[#56BD83]">+75.41%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_8.png" alt="">
@@ -485,7 +520,7 @@
                 <div class="text-[#56BD83]">+75.41%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_9.png" alt="">
@@ -499,7 +534,7 @@
                 <div class="text-[#E94949]">-40.01%</div>
             </div>
 
-            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px]">
+            <div class="flex justify-between items-center p-5 bg-dark2 rounded-[20px] mb-[18px] lg:mb-0">
                 <div class="flex">
                     <div class="mr-3">
                         <img src="./img/ellipse_750_10.png" alt="">
@@ -521,83 +556,90 @@
         <h4 class="text-[26px] font-bold text-space mb-[30px]">Browse by Category</h4>
 
         <div class="mb-[30px]">
-            <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
-                <div class="mb-[17px] relative">
-                    <div>
-                        <img src="./img/rectangle_5178_1.png" alt="">
-                    </div>
+            <div class="flex overflow-x-auto snap-mandatory scroll-snap-always gap-x-[30px]">
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
+                        <div class="mb-[17px] relative">
+                            <div>
+                                <img src="./img/rectangle_5178_1.png" alt="">
+                            </div>
 
-                    <div class="absolute -left-[10px] -top-[10px]">
-                        <img src="./img/avatar_1.png" alt="">
+                            <div class="absolute -left-[10px] -top-[10px]">
+                                <img src="./img/avatar_1.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <div class="font-semibold text-[18px] leading-[30px]">Mitchell Starc</div>
+                                <div class="paragraph-3 text-grey">20,600+ Items</div>
+                            </div>
+                            <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
+                        </div>
                     </div>
                 </div>
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
+                        <div class="mb-[17px] relative">
+                            <div>
+                                <img src="./img/rectangle_5178_2.png" alt="">
+                            </div>
 
-                <div class="flex justify-between items-center">
-                    <div>
-                        <div class="font-semibold text-[18px] leading-[30px]">Mitchell Starc</div>
-                        <div class="paragraph-3 text-grey">20,600+ Items</div>
-                    </div>
-                    <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
-                </div>
-            </div>
+                            <div class="absolute -left-[10px] -top-[10px]">
+                                <img src="./img/avatar_2.png" alt="">
+                            </div>
+                        </div>
 
-            <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
-                <div class="mb-[17px] relative">
-                    <div>
-                        <img src="./img/rectangle_5178_2.png" alt="">
-                    </div>
-
-                    <div class="absolute -left-[10px] -top-[10px]">
-                        <img src="./img/avatar_2.png" alt="">
-                    </div>
-                </div>
-
-                <div class="flex justify-between items-center">
-                    <div>
-                        <div class="font-semibold text-[18px] leading-[30px]">Pat Cummins</div>
-                        <div class="paragraph-3 text-grey">20,600+ Items</div>
-                    </div>
-                    <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
-                </div>
-            </div>
-
-            <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
-                <div class="mb-[17px] relative">
-                    <div>
-                        <img src="./img/rectangle_5178_3.png" alt="">
-                    </div>
-
-                    <div class="absolute -left-[10px] -top-[10px]">
-                        <img src="./img/ellipse_738_3.png" alt="">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <div class="font-semibold text-[18px] leading-[30px]">Pat Cummins</div>
+                                <div class="paragraph-3 text-grey">20,600+ Items</div>
+                            </div>
+                            <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
+                        </div>
                     </div>
                 </div>
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
+                        <div class="mb-[17px] relative">
+                            <div>
+                                <img src="./img/rectangle_5178_3.png" alt="">
+                            </div>
 
-                <div class="flex justify-between items-center">
-                    <div>
-                        <div class="font-semibold text-[18px] leading-[30px]">Pat Cummins</div>
-                        <div class="paragraph-3 text-grey">20,600+ Items</div>
+                            <div class="absolute -left-[10px] -top-[10px]">
+                                <img src="./img/ellipse_738_3.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <div class="font-semibold text-[18px] leading-[30px]">Pat Cummins</div>
+                                <div class="paragraph-3 text-grey">20,600+ Items</div>
+                            </div>
+                            <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
+                        </div>
                     </div>
-                    <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
                 </div>
-            </div>
+                <div class="rounded scroll-snap-start">
+                    <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
+                        <div class="mb-[17px] relative">
+                            <div>
+                                <img src="./img/rectangle_5178_3.png" alt="">
+                            </div>
 
-            <div class="bg-dark2 p-3 rounded-[12px] mb-[18px]">
-                <div class="mb-[17px] relative">
-                    <div>
-                        <img src="./img/rectangle_5178_3.png" alt="">
-                    </div>
+                            <div class="absolute -left-[10px] -top-[10px]">
+                                <img src="./img/ellipse_738_3.png" alt="">
+                            </div>
+                        </div>
 
-                    <div class="absolute -left-[10px] -top-[10px]">
-                        <img src="./img/ellipse_738_3.png" alt="">
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <div class="font-semibold text-[18px] leading-[30px]">Josh Hazlewood</div>
+                                <div class="paragraph-3 text-grey">20,600+ Items</div>
+                            </div>
+                            <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
+                        </div>
                     </div>
-                </div>
-
-                <div class="flex justify-between items-center">
-                    <div>
-                        <div class="font-semibold text-[18px] leading-[30px]">Josh Hazlewood</div>
-                        <div class="paragraph-3 text-grey">20,600+ Items</div>
-                    </div>
-                    <button class="btn-primary max-w-[97px] max-h-[44px]">Follow</button>
                 </div>
             </div>
         </div>
@@ -608,133 +650,158 @@
     <div class="mb-[146px]">
         <h4 class="mx-auto font-space font-bold text-[26px] leading-[36px] text-center mb-[30px]">How it Works</h4>
 
-        <div class="bg-dark2 p-3 text-center rounded-[12px] mb-[17px]">
-            <div class="my-[30px]">
-                <img src="./img/group_18623.png" class="mx-auto" alt="">
+        <div class="grid grid-cols-1 lg:grid-cols-3 lg:gap-4">
+            <div class="bg-dark2 p-3 text-center rounded-[12px] mb-[17px]">
+                <div class="my-[30px]">
+                    <img src="./img/group_18623.png" class="mx-auto" alt="">
+                </div>
+                <h4 class="heading-4 mb-[16px]">Set up your wallet</h4>
+                <p class="paragraph-1 mb-[37px]">Once you’ve set up your wallet of choice, connect it to our platform by
+                    clicking the wallet icon.</p>
             </div>
-            <h4 class="heading-4 mb-[16px]">Set up your wallet</h4>
-            <p class="paragraph-1 mb-[37px]">Once you’ve set up your wallet of choice, connect it to our platform by clicking the wallet icon.</p>
-        </div>
 
-        <div class="bg-dark2 p-3 text-center rounded-[12px] mb-[17px]">
-            <div class="my-[30px]">
-                <img src="./img/group_18624.png" class="mx-auto" alt="">
+            <div class="bg-dark2 p-3 text-center rounded-[12px] mb-[17px]">
+                <div class="my-[30px]">
+                    <img src="./img/group_18624.png" class="mx-auto" alt="">
+                </div>
+                <h4 class="heading-4 mb-[16px]">Create your collection</h4>
+                <p class="paragraph-1 mb-[37px]">Click your collection. Add social links, profile & banner images, and
+                    set a secondary sales fee.</p>
             </div>
-            <h4 class="heading-4 mb-[16px]">Create your collection</h4>
-            <p class="paragraph-1 mb-[37px]">Click your collection. Add social links, profile & banner images, and set a secondary sales fee.</p>
-        </div>
 
-        <div class="bg-dark2 p-3 text-center rounded-[12px] mb-[17px]">
-            <div class="my-[30px]">
-                <img src="./img/flatline.png" class="mx-auto" alt="">
+            <div class="bg-dark2 p-3 text-center rounded-[12px] mb-[17px]">
+                <div class="my-[30px]">
+                    <img src="./img/flatline.png" class="mx-auto" alt="">
+                </div>
+                <h4 class="heading-4 mb-[16px]">Add your NFTs</h4>
+                <p class="paragraph-1 mb-[37px]">Upload your work (image, video, audio, or 3D art), add a title and
+                    description.</p>
             </div>
-            <h4 class="heading-4 mb-[16px]">Add your NFTs</h4>
-            <p class="paragraph-1 mb-[37px]">Upload your work (image, video, audio, or 3D art), add a title and description.</p>
         </div>
     </div>
-    
+
     <div class="relative bg-dark4 px-3 rounded-[12px] py-[50px] mb-[77px]">
         <div class="absolute -top-[76px] left-[50%] -translate-x-[50%]">
             <img src="./img/group_18625.png" alt="">
         </div>
 
         <h4 class="font-space font-bold text-[26px] leading-[36px] mb-3 text-center">Join our community</h4>
-        <p class="paragraph-2 mb-[30px] text-center">Discover, collect, and sell extraordinary NFTs through our awesome platform.</p>
+        <p class="paragraph-2 mb-[30px] text-center">Discover, collect, and sell extraordinary NFTs through our awesome
+            platform.</p>
 
         <button class="btn-primary mx-auto">Get Started</button>
     </div>
 
     <div>
-        <div class="mb-[29px]">
-            <h4 class="heading-4 mb-[23px]">Marketplace</h4>
+        <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+            <div class="mb-[29px]">
+                <h4 class="heading-4 mb-[23px]">Marketplace</h4>
 
-            <ul class="font-space text-[16px] leading-[28px] text-grey">
-                <li class="mb-[15px]">Explore</li>
-                <li class="mb-[15px]">Blog</li>
-                <li class="mb-[15px]">How it works</li>
-                <li class="mb-[15px]">Jobs</li>
-                <li class="mb-[15px]">Help center</li>
-            </ul>
-        </div>
-
-        <div class="mb-[29px]">
-            <h4 class="heading-4 mb-[23px]">My Account</h4>
-
-            <ul class="font-space text-[16px] leading-[28px] text-grey">
-                <li class="mb-[15px]">Profile</li>
-                <li class="mb-[15px]">Favorites</li>
-                <li class="mb-[15px]">Watchlist</li>
-                <li class="mb-[15px]">My Collections</li>
-            </ul>
-        </div>
-
-        <div class="mb-[29px]">
-            <h4 class="heading-4 mb-[23px]">Company</h4>
-
-            <ul class="font-space text-[16px] leading-[28px] text-grey">
-                <li class="mb-[15px]">About</li>
-                <li class="mb-[15px]">Careers</li>
-                <li class="mb-[15px]">Ventures</li>
-                <li class="mb-[15px]">Grants</li>
-            </ul>
-        </div>
-
-        <div class="mb-[29px]">
-            <h4 class="heading-4 mb-[23px]">Stay in the loop</h4>
-
-            <input
-                type="email"
-                class="p-[15px] paragraph-1 text-grey bg-dark2 outline-0 w-full mb-3"
-                placeholder="email address"
-            >
-
-            <button class="btn-primary max-w-full mb-[18px]">Subscribe</button>
-
-            <div class="mb-[18px]">
-                <label for="email" class="paragraph-2 mb-[6px] text-grey">Email us</label>
-                <input
-                    type="text"
-                    id="email"
-                    class="block read-only:bg-transparent heading-4"
-                    value="email@gmail.com"
-                    readonly
-                >
+                <ul class="font-space text-[16px] leading-[28px] text-grey">
+                    <li class="mb-[15px]">Explore</li>
+                    <li class="mb-[15px]">Blog</li>
+                    <li class="mb-[15px]">How it works</li>
+                    <li class="mb-[15px]">Jobs</li>
+                    <li class="mb-[15px]">Help center</li>
+                </ul>
             </div>
 
-            <div class="mb-[18px]">
-                <label for="phone" class="paragraph-2 mb-[6px] text-grey">Call us</label>
-                <input
-                    type="text"
-                    id="phone"
-                    class="block read-only:bg-transparent heading-4"
-                    value="000 1234 5678"
-                    readonly
-                >
+            <div class="mb-[29px]">
+                <h4 class="heading-4 mb-[23px]">My Account</h4>
+
+                <ul class="font-space text-[16px] leading-[28px] text-grey">
+                    <li class="mb-[15px]">Profile</li>
+                    <li class="mb-[15px]">Favorites</li>
+                    <li class="mb-[15px]">Watchlist</li>
+                    <li class="mb-[15px]">My Collections</li>
+                </ul>
             </div>
 
-            <p class="paragraph-2 text-grey">Copyright © 2022 UIHUT all rights reserved.</p>
+            <div class="mb-[29px]">
+                <h4 class="heading-4 mb-[23px]">Company</h4>
+
+                <ul class="font-space text-[16px] leading-[28px] text-grey">
+                    <li class="mb-[15px]">About</li>
+                    <li class="mb-[15px]">Careers</li>
+                    <li class="mb-[15px]">Ventures</li>
+                    <li class="mb-[15px]">Grants</li>
+                </ul>
+            </div>
+
+            <div class="mb-[29px]">
+                <h4 class="heading-4 mb-[23px]">Stay in the loop</h4>
+
+                <input
+                        type="email"
+                        class="p-[15px] paragraph-1 text-grey bg-dark2 outline-0 w-full mb-3"
+                        placeholder="email address"
+                >
+
+                <button class="btn-primary max-w-full mb-[18px]">Subscribe</button>
+
+                <div class="mb-[18px]">
+                    <label for="email" class="paragraph-2 mb-[6px] text-grey">Email us</label>
+                    <input
+                            type="text"
+                            id="email"
+                            class="block read-only:bg-transparent heading-4"
+                            value="email@gmail.com"
+                            readonly
+                    >
+                </div>
+
+                <div class="mb-[18px]">
+                    <label for="phone" class="paragraph-2 mb-[6px] text-grey">Call us</label>
+                    <input
+                            type="text"
+                            id="phone"
+                            class="block read-only:bg-transparent heading-4"
+                            value="000 1234 5678"
+                            readonly
+                    >
+                </div>
+
+                <p class="paragraph-2 text-grey">Copyright © 2022 UIHUT all rights reserved.</p>
+            </div>
+
         </div>
 
         <div class="h-[1px] bg-dark3 mb-[30px]"></div>
 
-        <ul class="mb-[18px]">
-            <li class="paragraph-3 text-grey mb-[6px]">Privacy</li>
-            <li class="paragraph-3 text-grey mb-[6px]">Security</li>
-            <li class="paragraph-3 text-grey mb-[6px]">Terms & Condition</li>
-        </ul>
+        <div class="lg:flex lg:justify-between lg:items-center">
+            <ul class="mb-[18px] lg:flex">
+                <li class="paragraph-3 text-grey mb-[6px] lg:mr-[37px]">Privacy</li>
+                <li class="paragraph-3 text-grey mb-[6px] lg:mr-[37px]">Security</li>
+                <li class="paragraph-3 text-grey mb-[6px] lg:mr-[37px]">Terms & Condition</li>
+            </ul>
 
-        <div class="mb-[30px]">
-            <div class="inline-block p-3 bg-dark2 rounded-full leading-[1px]">
-                <ion-icon name="logo-facebook"></ion-icon>
-            </div>
-            <div class="inline-block p-3 bg-primary rounded-full leading-[1px]">
-                <ion-icon name="logo-linkedin"></ion-icon>
-            </div>
-            <div class="inline-block p-3 bg-dark2 rounded-full leading-[1px]">
-                <ion-icon name="logo-twitter"></ion-icon>
+            <div class="mb-[30px]">
+                <div class="inline-block p-3 bg-dark2 rounded-full leading-[1px]">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </div>
+                <div class="inline-block p-3 bg-primary rounded-full leading-[1px]">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </div>
+                <div class="inline-block p-3 bg-dark2 rounded-full leading-[1px]">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<script>
+    const slidesContainer = document.querySelector(".slides-container");
+    const slideWidth = slidesContainer.querySelector(".slide").clientWidth;
+    const prevButton = document.querySelector(".prev");
+    const nextButton = document.querySelector(".next");
+
+    nextButton.addEventListener("click", () => {
+        slidesContainer.scrollLeft += slideWidth;
+    });
+
+    prevButton.addEventListener("click", () => {
+        slidesContainer.scrollLeft -= slideWidth;
+    });
+</script>
 </body>
 </html>
